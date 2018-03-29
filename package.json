@@ -1,0 +1,35 @@
+{
+  "name": "employment",
+  "version": "1.0.0",
+  "description": "Employment-Oriented service Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha tests tests/controllers tests/models"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "Employment"
+  ],
+  "author": "IBM Interns",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chai": "^4.1.1",
+    "cloudant": "^1.8.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.3",
+    "mocha": "^3.5.0",
+    "nock": "^9.0.14",
+    "node-promise": "^0.5.12",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0"
+  }
+}

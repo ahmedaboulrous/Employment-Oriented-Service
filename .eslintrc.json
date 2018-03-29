@@ -1,0 +1,27 @@
+{
+    "extends": "airbnb",
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ],
+    "rules": {
+        "no-console":0,
+        "indent": "off",
+        "linebreak-style":"off",
+        "no-path-concat":"off",
+        "prefer-template":"off",
+        "no-tabs":"off",
+        "brace-style":"off",
+        "no-underscore-dangle":"off",
+        "global-require":"off",
+        "consistent-return":"off",
+        "func-names":"off",
+        "no-restricted-syntax":"off",
+        "no-unused-vars":"warn",
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}
